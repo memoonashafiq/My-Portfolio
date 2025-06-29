@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Memoona's Portfolio</title>
+        <style>
+            *{margin: 0; padding: 0; box-sizing: border-box;}
+            body {font-family: Arial, sans-serif; background: #f5f5f5; color: #333;}
+            header { background: #4c93af; color: white; padding: 20px 0; text-align: center;}
+            nav ul { display: flex; justify-content: center; gap: 20px; list-style: none; margin-top: 10px;}
+            nav a { color: white; text-decoration: none; font-weight: bold;}
+            section { padding: 40px 20px; max-width: 1000px; margin: auto;}
+            h2 {color: #4c8eaf; margin-bottom: 15px; }
+            .card {background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            .profile_pic {width: 150px; height: auto; border-radius: 10px;}
+            .VM_pic {width: 150px; height: auto; border-radius: 10px; }
+            .FT_pic {width: 250px; height: auto; border-radius: 10px; }
+            .Cafe_pic {width: 150px; height: auto; border-radius: 10px; }
+            .PAF-pic { width: 150px; height: auto; border-radius: 10px;}
+            footer {text-align: center; background: #333; color: white; padding: 20px; margin-top: 40px;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Memoona Shafiq</h1>
+            <p>Computer Science Student | Web Developer | Programmer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+                <img src="html.jpg" alt="" class="profile_pic">
+                <p style="flex: 1">I am a passionate Computer Science student at PAF-IAST, with interest in web development, programming, and building real-world applications.</p>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="card">
+                <ul>
+                    <li>Languages: C++, Python, HTML, CSS, JavaScript</li>
+                    <li>Tools: GitHub, VS Code, MySQL</li>
+                    <li>Soft Skills: Teamwork, Problem-Solving, Communication</li>
+                </ul>
+            </div>
+        </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="card" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+                    <img src="VM(DLD).jpg" alt="" class="VM_pic"> 
+                    <div>
+                    <h3>Vending Machine (DLD Project)</h3>
+                    <p>Designed a digital vending machine circuit using logic gates.</p>
+                    </div>
+                </div>
+                <div class="card" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; flex-direction: row-reverse;">
+                    <img src="images.jpg" alt="" class="FT_pic">
+                    <div style="flex: 1;">
+                <h3>Fitness Tracker (C++ OOP Project)</h3>
+                <p>Console-based fitness tracker using classes for tracking goals and progress.</p>
+                </div>
+                </div>
+                <div class="card" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+                    <img src="CMS.jpg" alt="" class="Cafe_pic">
+                    <div>
+                    <h3>Cafe Management System (Database Project)</h3>
+                    <p>Developed a cafe management web app using PHP and MySQL.</p>
+                </div>
+                </div>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <div class="card"style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;" >
+                    <img src="PAF-IAST.jpg" alt="" class="PAF-pic">
+                    <div>
+                    <p>BS Computer Science| PAF-IAST</p>
+                    <p>2023-2027</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="card">
+                    <p>Email: <a href="mailto: meemonashafiq@example.com">memoonashafiq07@example.com</a></p>
+                    <p>GitHub: <a href="https://github.com/memoonashafiq">github.com/memoonashafiq</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/memoona-shafiq-1505b9370?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Baaa%2BcT8kTCCMs5JrOPuxTQ%3D%3D">linkedin.com/in/meemonashafiq</a></p>
+
+                </div>
+                <h2>Get In Touch</h2>
+                <div class="card">
+                    <form action="">
+                        <input type="text" placeholder="Name*">
+                        <input type="email" placeholder="Email*"><br>
+                        <input type="text" placeholder="Subject*"><br>
+                        <input type="text" placeholder="Your Message*"><br>
+                        <button>Contact US</button>
+                    </form>
+
+                </div>
+            </section>
+            <footer>
+                <p>&copy;2025 Memoona Shafiq. All rights reserved.</p>
+            </footer>
+    </body>
+</html>
